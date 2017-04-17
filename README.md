@@ -5,7 +5,8 @@ Chong Han  ch2905@nyu.edu, Mingzhong Dai  md3797@nyu.edu, Yingbing Wang yw2848@n
 
 
 ## Project description
-This project contains 3 parts: data cleaning, data description and data visualization. Each of these will be described below.
+This project discusses about crime information in New York. Mainly, it contains 3 parts: data cleaning, data description and data visualization. Each of these will be described below. More information can be found on official webpage:   
+https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
 
 ## Instructions for running code
 ### Part 1
@@ -17,7 +18,7 @@ The running sequences are
 3. run dumbo_cell_information with rows.csv. The cell information will be in cell_information.csv
 
 ```bash
-wget https://data.cityofnewyork.us/api/views/qgea-i56i/rows.csv
+wget https://data.cityofnewyork.us/api/views/qgea-i56i/rows.csv?accessType=DOWNLOAD
 tail -n +1 rows.csv > five_million_lines_data.csv
 spark-sumbmit dumbo_count.py
 spark-sumbmit dumbo_clean_data.py
