@@ -77,7 +77,7 @@ def meta_information(x, semantic):
 
 
 if __name__ == "__main__":
-    file_name = "clean_rows.csv"
+    file_name = "rows.csv"
     result_file = "cell_information.csv"
     semantic = ["ID", "date", "time", "date", "time", "date", "code", "code", "code", "descprition",
                 "descprition","level", "department", "borough", "code", "location", "place", "park name", "nycha name",
