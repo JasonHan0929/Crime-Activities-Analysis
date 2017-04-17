@@ -5,7 +5,8 @@ Chong Han  ch2905@nyu.edu, Mingzhong Dai  md3797@nyu.edu, Yingbing Wang yw2848@n
 
 
 ## Project description
-This project discusses about crime information in New York. Mainly, it contains 3 parts: data cleaning, data description and data visualization. Each of these will be described below. More information can be found on official webpage:   
+This project discusses about crime information in New York. Mainly, it contains 3 parts: data cleaning, data description and data visualization. Each of these will be described below.   
+More information can be found on official webpage:   
 https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
 
 ## Instructions for running code
