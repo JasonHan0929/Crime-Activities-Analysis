@@ -36,7 +36,7 @@ To begin with, ensure that you have already in this file. And suppose the input 
 ./execute.sh Num InputFile                  //get the data of particular script
 ```
 
-The relationship between the number and script are displayed below:  
+The relationship between the number and script is displayed below:  
 1			part1/area_total_amount.py  
 2			part1/area_year_amount.py  
 3			part1/area_month_amount.py  
@@ -57,4 +57,20 @@ The relationship between the number and script are displayed below:
 After you run the shell script, its output will store in the file called results in corresponding part.
 
 ### Part 3
-This part corresponds to scripts in DataVisualization.   
+This part corresponds to scripts in DataVisualization. All scripts and related csv files used to draw plots in this section locate at Big-Data-Project/DataVisualization/Plot_Code. Output plots locate in Big-Data-Project/DataVisualization/Plots. 
+All scripts in this section should be run in your local computer but not submit on spark or run on Hadoop.
+
+The map between scripts and output plots is listed below:
+1           area_year_amount.py : area_year_amount.png (Yearly Amount of Reported Crime in 5 Boroughs of NYC (2006-2015))
+2           Top10KYCD_year_amount.py : Top10KYCD_year_amount.png (Yearly Amount Trend of TOP 10 Crime Type in NYC (2006-2015))
+3           level_year_amount.py : level_year_amount.png (Yearly Amount of 3 Levels Crime of NYC (2006 - 2015))
+4           Top10KYCD_daytime_amount.py : Top10KYCD_daytime_amount.png (Time Slots of Happened Time (Top 10 Crime Type))
+5           brooklyn_month_amount.py : brooklyn_month_amount.png (Monthly Amount of Crime in Brooklyn (2006-2015))
+6           manhattan_month_amount.py : manhattan_month_amount.png (Monthly Amount of Crime in Manhattan (2006-2015))
+7           brooklyn_3level.py : brooklyn_3level.png 
+8           manhattan_3level.py : manhattan_3level.png
+9           bronx_3level.py : bronx_3level.png
+10          queens_3level.py : queens_3level.png
+11          statenisland_3level.py : statenisland_3level.png
+
+
