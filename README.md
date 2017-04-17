@@ -1,9 +1,9 @@
 # Big-Data-Project
 
 ## Team Members:
-Chong Han  ch2907  
+Chong Han  ch2905  
 Mingzhong Dai  md3797  
-Yinbing Wang yw2848	      
+Yingbing Wang yw2848	      
 
 ## Instructions for Running Code
 
