@@ -28,10 +28,10 @@ spark-sumbmit dumbo_cell_information.py
 ### Part 2
 This part corresponds to scripts in DataStatistics. All you need is to run  execute.sh.  
 To begin with, ensure that you have already in this file. And suppose the input file(.csv) in your hadoop is called InputFile.  
-```bash
-1 ./execute.sh all InputFile                //get all the data in DataStatistics   
-2 ./execute.sh part1/part2/part3 InputFIle  //get the data in particular part
-3 ./execute.sh Num InputFile                //get the data of particular script
+```
+./execute.sh all InputFile                  //get all the data in DataStatistics   
+./execute.sh part1/part2/part3 InputFIle    //get the data in particular part
+./execute.sh Num InputFile                  //get the data of particular script
 ```
 
 The relationship between the number and script are displayed below:  
