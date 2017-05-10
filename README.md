@@ -72,3 +72,6 @@ The map between scripts and output plots is listed below:
 9. bronx_3level.py : bronx_3level.png  
 10. queens_3level.py : queens_3level.png  
 11. statenisland_3level.py : statenisland_3level.png  
+
+### Part 4
+In this part, we focus on data correlation analysis. We find some distribution features of the data, make hypothesis and prove the correctness of them. 
